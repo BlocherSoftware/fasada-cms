@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_about_us_about_us_elements",
+  "info": {
+    "displayName": "aboutUsElement",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

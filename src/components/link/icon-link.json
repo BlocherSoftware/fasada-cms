@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_link_icon_links",
+  "info": {
+    "displayName": "iconLink",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

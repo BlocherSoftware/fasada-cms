@@ -1,0 +1,107 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Strona główna",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroDescription": {
+      "type": "richtext"
+    },
+    "heroPhones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.phone-link"
+    },
+    "heroMail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.mail-link"
+    },
+    "servicesTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title-with-accent"
+    },
+    "servicesDescription": {
+      "type": "richtext"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.our-services-homepage"
+    },
+    "aboutUsTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title-with-accent"
+    },
+    "aboutUsElements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.about-us-element"
+    },
+    "realizationsTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title-with-accent"
+    },
+    "realizationsDescription": {
+      "type": "richtext"
+    },
+    "realizationsLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.icon-link"
+    },
+    "whyUsTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title-with-accent"
+    },
+    "whyUsDescription": {
+      "type": "richtext"
+    },
+    "whyUsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.list"
+    },
+    "faqTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title-with-accent"
+    },
+    "faqList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list.dropdown-list"
+    },
+    "realizationsImages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "realizations.realizations-homepage"
+    }
+  }
+}

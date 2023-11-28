@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_realizations_realizations_homepages",
+  "info": {
+    "displayName": "realizationsHomepage",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images-list"
+    }
+  }
+}

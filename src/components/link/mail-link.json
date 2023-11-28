@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_link_mail_links",
+  "info": {
+    "displayName": "Mail__link",
+    "icon": "envelope",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "showIcon": {
+      "type": "boolean"
+    }
+  }
+}

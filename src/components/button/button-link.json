@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_button_button_links",
+  "info": {
+    "displayName": "buttonLink",
+    "icon": "toggle-on",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

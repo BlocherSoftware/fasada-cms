@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_title_title_with_accents",
+  "info": {
+    "displayName": "titleWithAccent",
+    "icon": "font",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "accent": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

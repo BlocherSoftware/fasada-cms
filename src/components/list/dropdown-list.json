@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_list_dropdown_lists",
+  "info": {
+    "displayName": "dropdownList",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

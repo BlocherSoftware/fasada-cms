@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_link_phone_links",
+  "info": {
+    "displayName": "phoneLink",
+    "icon": "phone-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "showIcon": {
+      "type": "boolean"
+    }
+  }
+}

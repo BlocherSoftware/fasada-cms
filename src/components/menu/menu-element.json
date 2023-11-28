@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_menu_menu_elements",
+  "info": {
+    "displayName": "Menu__element",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tekst": {
+      "type": "string"
+    },
+    "submenu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::submenu.submenu"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
